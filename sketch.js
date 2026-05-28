@@ -551,6 +551,10 @@ function drawFightHUD() {
 // per keypress, keyIsDown() fires every frame the key is held.
 // ============================================================
 function keyPressed() {
+  // Make sure audio is unlocked after first key press
+  if (getAudioContext().state !== "running") {
+    getAudioContext().resume();
+  }
   // Start or rematch — only responds to ENTER
   if (keyCode === ENTER) {
     if (gameState === STATE_START || gameState === STATE_WIN) {
