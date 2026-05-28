@@ -360,8 +360,14 @@ function startGame() {
 function endGame(winnerLabel) {
   gameState = STATE_WIN;
   winner = winnerLabel;
+
   bgMusic.stop();
   winSound.play();
+
+  // Start splash music again on win screen
+  if (!splashMusic.isPlaying()) {
+    splashMusic.loop();
+  }
 }
 
 // ============================================================
