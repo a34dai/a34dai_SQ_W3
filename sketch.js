@@ -551,24 +551,31 @@ function drawFightHUD() {
 // per keypress, keyIsDown() fires every frame the key is held.
 // ============================================================
 function keyPressed() {
-  // Make sure audio is unlocked after first key press
+  // Unlock audio
   if (getAudioContext().state !== "running") {
     getAudioContext().resume();
+
+    // Retry splash music AFTER unlock
+    if (gameState === STATE_START && !splashMusic.isPlaying()) {
+      splashMusic.loop();
+    }
   }
-  // Start or rematch — only responds to ENTER
+
+  // Start or rematch
   if (keyCode === ENTER) {
     if (gameState === STATE_START || gameState === STATE_WIN) {
       startGame();
     }
   }
 
-  // Player 1 attack — F key (keyCode 70)
+  // Player 1 attack
   if (keyCode === 70 && gameState === STATE_FIGHT) {
     fighter1.startAttack(fighter2.x);
   }
 
-  // Player 2 attack — K key (keyCode 75)
+  // Player 2 attack
   if (keyCode === 75 && gameState === STATE_FIGHT) {
     fighter2.startAttack(fighter1.x);
   }
 }
+
