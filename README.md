@@ -36,14 +36,14 @@ The console will show any errors in your sketch.
 
 | File                                        | Source                                            |
 | ------------------------------------------- | ------------------------------------------------- |
-| `assets/sounds/background.mp3`              | DsTechnician, Robot Laser Carnage — Pixabay.com [1] |
-| `assets/sounds/splash.mp3`                  | fidelfortune, Scifi intro-outro — Pixabay.com [2] |
-| `assets/sounds/win.wav`                     | listener4me, Win Sound Effect — OpenGameArt.org [3]  |
-| `assets/images/floorTexture`                | Portal 1 textures - concrete, liquid, metal — OffiDocs.com [4] |
-| `assets/sounds/punch_3.wav` – `punch_9.wav` | Punch SFX — OpenGameArt.org [5]                     |
-| `assets/sounds/punch_1.wav` | Universfield [6]
-| `assets/images/bgarena`                     | qq3218162004, Portal 1 Wallpaper — Wallpapercave.com [7] |
-| `assets/sounds/punch_2.wav` | Yodguard, warp magic(2) — Pixabay.com [8] 
+| `assets/sounds/background.mp3` [1]             | DsTechnician, Robot Laser Carnage — Pixabay.com |
+| `assets/sounds/splash.mp3` [2]                  | fidelfortune, Scifi intro-outro — Pixabay.com  |
+| `assets/sounds/win.wav` [3]                    | listener4me, Win Sound Effect — OpenGameArt.org  |
+| `assets/images/floorTexture` [4]               | Portal 1 textures - concrete, liquid, metal — OffiDocs.com |
+| `assets/sounds/punch_3.wav` – `punch_9.wav` [5] | Punch SFX — OpenGameArt.org                     |
+| `assets/sounds/punch_1.wav` [6] | Universfield, Metal Punch - Pixabay.com
+| `assets/images/bgarena` [7]                    | qq3218162004, Portal 1 Wallpaper — Wallpapercave.com |
+| `assets/sounds/punch_2.wav` [8] | Yodguard, warp magic(2) — Pixabay.com 
 
 ## References
 [1] DSTechnician. n.d. Robot Laser Carnage. Pixabay.com. Retrieved May 27, 2026, from https://pixabay.com/music/video-games-robot-laser-carnage-113855/
